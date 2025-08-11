@@ -19,7 +19,7 @@ class Alien(Sprite):
         self.screen = game.screen
         self.settings = game.settings
 
-        self.image = pygame.image.load('Assets/images/enemy_4.png')
+        self.image = pygame.image.load('Lab13_rdenny3-1\Assets\images\enemy_4.png')
         self.rect = self.image.get_rect()
 
         self.rect.x = self.rect.width

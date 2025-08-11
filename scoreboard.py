@@ -9,7 +9,7 @@ This represents a simple play button for starting the game.
 
 import pygame.font
 from pygame.sprite import Group
-from alien_invasion import Ship
+from ship import Ship
 
 class Scoreboard: 
     """
